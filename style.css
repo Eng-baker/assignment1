@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#moveBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#rectangle {
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    background-color: red;
+}
