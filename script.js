@@ -31,4 +31,4 @@ button.onclick = function () {
   }
 };
 
-// button.click();
+button.click();
